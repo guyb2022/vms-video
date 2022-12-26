@@ -6,7 +6,7 @@ from google.cloud import storage
 
 execution_path = os.getcwd()
 storage_client = storage.Client()
-bucket_name = "result_ojt_after_api"
+bucket_name = "results-json-vms"
 bucket = storage_client.get_bucket(bucket_name)
 blobs = list(bucket.list_blobs())
 
