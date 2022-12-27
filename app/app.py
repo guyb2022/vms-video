@@ -28,7 +28,7 @@ def get_json():
         blob.download_to_filename(f"{data}")
         print("File downloaded")
         json_file = send_from_directory(execution_path, f"{data}")
-        print("FIle sent")
+        print("File sent")
         # return videoplayback.json
         return json_file
 
